@@ -8,6 +8,7 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
   1. [Animations Questions](#animations-questions)
   1. [Architecture Questions](#architecture-questions)
+  1. [API Questions](#api-questions)
   1. [Template Questions](#template-questions)
   1. [Component Questions](#component-questions)
   1. [Component Interaction & State Management Questions](#component-interaction-&-state-management-questions)
@@ -30,6 +31,15 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 #### Animations Questions:
 
 #### Architecture Questions:
+
+#### API Questions:
+
+* What does this line do:
+
+  ```
+  @HostBinding('[class.valid]') isValid;
+  ```
+*
 
 #### Template Syntax Questions:
 
@@ -72,6 +82,42 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 
 #### Coding Questions:
+
+* What would these components render?
+
+```
+import {Component, ContentChildren, Directive, Input, QueryList} from '@angular/core';
+@Directive({selector: 'pane'})
+export class Pane {
+  @Input() id: string;
+}
+@Component({
+  selector: 'tab',
+  template: `
+    <div>panes: {{serializedPanes}}</div>
+  `
+})
+export class Tab {
+  @ContentChildren(Pane) panes: QueryList<Pane>;
+  get serializedPanes(): string { return this.panes ? this.panes.map(p => p.id).join(', ') : ''; }
+}
+@Component({
+  selector: 'example-app',
+  template: `
+    <tab>
+      <pane id="1"></pane>
+      <pane id="2"></pane>
+      <pane id="3" *ngIf="shouldShow"></pane>
+    </tab>
+    <button (click)="show()">Show 3</button>
+  `,
+})
+export class ContentChildrenComp {
+  shouldShow = false;
+  show() { this.shouldShow = true; }
+}
+
+```
 
 
 #### Fun Questions:
