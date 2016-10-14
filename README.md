@@ -85,6 +85,10 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Observables/RxJS Questions:
 
+* What is the difference between an observable and a promise?
+* How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs? 
+* How would you implement a color picker with rxjs?
+
 #### TypeScript Questions:
 
 #### Security Questions:
@@ -142,3 +146,4 @@ export class ContentChildrenComp {
 
 
 #### Contributors:
+* [Aysegul Yonet](https://developers.google.com/experts/people/aysegul-yonet)
