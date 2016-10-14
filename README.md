@@ -6,15 +6,16 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 ## Table of Contents
 
-  1. [General Questions](#general-questions)
+  1. [Animations Questions](#animations-questions)
+  1. [Architecture Questions](#architecture-questions)
   1. [Template Questions](#template-questions)
   1. [Component Questions](#component-questions)
   1. [Component Interaction & State Management Questions](#component-interaction-&-state-management-questions)
   1. [Forms Questions](#forms-questions)
+  1. [General Questions](#general-questions)
   1. [Structural Directives Questions](#structural-directives-questions)
   1. [Styling Questions](#styling-questions)
   1. [Services Questions](#services-questions)
-  1. [Architecture Questions](#architecture-questions)
   1. [Style Guide Questions](#style-guide-questions)
   1. [Testing Questions](#testing-questions)
   1. [Performance Questions](#performance-questions)
@@ -26,6 +27,9 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 * What did you learn about Angular 2.0 yesterday/this week?
 
+#### Animations Questions:
+
+#### Architecture Questions:
 
 #### Template Syntax Questions:
 
@@ -41,8 +45,6 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Services Questions:
 
-#### Architecture Questions:
-
 #### Testing Questions:
 
 #### Style Guide Questions:
@@ -53,8 +55,6 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 * What are some ways you may improve your website's scrolling performance?
 * Explain the difference between layout, painting and compositing.
 
-
-#### Animations Questions:
 
 #### Lifecycle Hooks Questions:
 
