@@ -49,6 +49,15 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Forms Questions:
 
+#### NgModules Questions:
+
+* What is the purpose of NgModule?
+* How do you decide to create a new NgModule?
+* What are the attributes that you can define in an NgModule annotation?
+* What would you have in a shared module?
+* What would you not put shared module?
+
+
 #### Structural Directives Questions:
 
 #### Styling Questions:
