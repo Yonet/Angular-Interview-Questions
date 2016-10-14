@@ -56,6 +56,7 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 * What are the attributes that you can define in an NgModule annotation?
 * What would you have in a shared module?
 * What would you not put shared module?
+* What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
 
 
 #### Structural Directives Questions:
