@@ -43,6 +43,9 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Template Syntax Questions:
 
+* How can you add an active class to a selected element in a list component?
+* What is a template variable. How would you use it?
+
 #### Component Questions:
 
 #### Component Interaction & State Management Questions:
