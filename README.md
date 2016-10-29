@@ -48,6 +48,8 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Component Questions:
 
+* What is the minimum definition of a component?
+
 #### Component Interaction & State Management Questions:
 
 #### Forms Questions:
