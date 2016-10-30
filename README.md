@@ -68,6 +68,8 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Styling Questions:
 
+* How would you select a custom component to style it.
+
 #### Services Questions:
 
 #### Testing Questions:
