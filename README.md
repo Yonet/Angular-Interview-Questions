@@ -32,6 +32,8 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Architecture Questions:
 
+* What is a good use case for ngrx/store?
+
 #### API Questions:
 
 * What does this line do:
