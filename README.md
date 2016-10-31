@@ -52,6 +52,9 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Component Interaction & State Management Questions:
 
+* How would you pass data from a parent component to a child component?
+* How would you pass data from a child component to a parent component?
+
 #### Forms Questions:
 
 #### NgModules Questions:
