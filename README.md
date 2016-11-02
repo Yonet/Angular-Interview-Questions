@@ -77,6 +77,8 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Services Questions:
 
+* What is the use case of services?
+
 #### Testing Questions:
 
 #### Style Guide Questions:
