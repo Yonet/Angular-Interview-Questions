@@ -66,6 +66,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What is the purpose of NgModule?
 * How do you decide to create a new NgModule?
 * What are the attributes that you can define in an NgModule annotation?
+* What is the difference between a module's forRoot() and forChild() methods and why do you need it?
 * What would you have in a shared module?
 * What would you not put shared module?
 * What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
