@@ -1,8 +1,10 @@
 # Angular2-Interview-Questions
 
-This file contains a number of Angular 2.0 interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+This file contains a number of Angular 2.0 interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require. 
 
-**Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+A developer is perfectly able to use Angular to build applications without being able to answer all of these questions. Addition to having a source for interview questions, my intention is to encourage interested developers to think about these questions. I regularly teach Angular 2 workshops. Oftentimes I do not get enough questions due to limited exposure working with the framework. These questions are the ones I personally needed to answer, to be able lead a team developing our first Angular 2 production application at Autodesk A360.
+
+**Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would. 
 
 ## Table of Contents
 
