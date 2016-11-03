@@ -96,8 +96,7 @@ This file contains a number of Angular 2.0 interview questions that can be used 
 
 #### Routing Questions:
 
-* What is the diffrence between RouterModule.forRoot() vs RouterModule.forChild()?
-
+* What is the diffrence between RouterModule.forRoot() vs RouterModule.forChild()?  Why is it important?
 
 #### Observables/RxJS Questions:
 
