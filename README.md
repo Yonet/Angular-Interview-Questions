@@ -110,6 +110,7 @@ A developer is perfectly able to use Angular to build applications without being
 #### Observables/RxJS Questions:
 
 * What is the difference between an observable and a promise?
+* What are some of the angular 2 apis that are using observables?
 * How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs? 
 * How would you implement a color picker with rxjs?
 
