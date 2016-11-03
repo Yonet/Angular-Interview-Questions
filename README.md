@@ -43,7 +43,6 @@ A developer is perfectly able to use Angular to build applications without being
   ```
   @HostBinding('[class.valid]') isValid;
   ```
-*
 
 #### Template Syntax Questions:
 
@@ -94,6 +93,11 @@ A developer is perfectly able to use Angular to build applications without being
 
 
 #### Lifecycle Hooks Questions:
+
+* What is the possible order of lifecycle hooks.
+* When will ngInit be called?
+* How would you make use of onNgInit()?
+* What would you consider a thing you should be careful doing on onNgInit()?
 
 #### Pipes Questions:
 
