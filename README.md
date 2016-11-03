@@ -101,6 +101,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 * What is the diffrence between RouterModule.forRoot() vs RouterModule.forChild()?  Why is it important?
 * How does loadChildren property work?
+* Do you need a Routing Module? Why/not?
 
 #### Observables/RxJS Questions:
 
