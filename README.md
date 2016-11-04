@@ -116,6 +116,15 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### TypeScript Questions:
 
+* Why do you need type definitions?
+* How would you define a custom type?
+* What is the difference between an Interface and a Class?
+* First line below gives compile error, second line doesn't. Why?
+```
+someService.someMethod(x);
+someService['someMethod'](x);
+```
+
 #### Security Questions:
 
 
