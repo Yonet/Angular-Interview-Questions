@@ -121,6 +121,8 @@ A developer is perfectly able to use Angular to build applications without being
 * How would you define a custom type?
 * What is the difference between an Interface and a Class?
 * First line below gives compile error, second line doesn't. Why?
+* What are Discriminated union types? 
+
 ```
 someService.someMethod(x);
 someService['someMethod'](x);
