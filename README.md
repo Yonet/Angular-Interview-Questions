@@ -32,6 +32,9 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### Animations Questions:
 
+* How do you define transion between two states in Angular?
+* How do you define a wildcard state?
+
 #### Architecture Questions:
 
 * What is a good use case for ngrx/store?
@@ -52,6 +55,9 @@ A developer is perfectly able to use Angular to build applications without being
 #### Component Questions:
 
 * What is the minimum definition of a component?
+* What is the difference between a component and a directive?
+* How do components communicate with each other?
+* How do you create two way data binding in Angular 2.0?
 
 #### Component Interaction & State Management Questions:
 
