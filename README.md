@@ -93,6 +93,8 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### Testing Questions:
 
+* How do you mock a service to inject in a unit test?
+
 #### Style Guide Questions:
 
 #### Performance Questions:
@@ -110,6 +112,9 @@ A developer is perfectly able to use Angular to build applications without being
 * What would you consider a thing you should be careful doing on onNgInit()?
 
 #### Pipes Questions:
+
+* What is a pure pipe?
+* What is an async pipe?
 
 #### Routing Questions:
 
