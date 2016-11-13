@@ -66,6 +66,8 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### Forms Questions:
 
+* When do you use template driven vs model driven forms? Why?
+
 #### NgModules Questions:
 
 * What is the purpose of NgModule?
