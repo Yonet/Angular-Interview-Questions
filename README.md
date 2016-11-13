@@ -79,10 +79,13 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### Structural Directives Questions:
 
+* What is a structural directive?
+
 #### Styling Questions:
 
 * How would you select a custom component to style it.
 * How would you select the parent element of a component?
+* How would you select all the child components' elements?
 
 #### Services Questions:
 
