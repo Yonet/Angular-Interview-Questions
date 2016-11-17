@@ -106,6 +106,9 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### Style Guide Questions:
 
+* What are some of the Angular Style Guide suggestions you follow on your code? Why?
+* Is it important to have a style guide? Why/not?
+
 #### Performance Questions:
 
 * What tools would you use to find a performance issue in your code?
@@ -130,6 +133,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What is the diffrence between RouterModule.forRoot() vs RouterModule.forChild()?  Why is it important?
 * How does loadChildren property work?
 * Do you need a Routing Module? Why/not?
+* When does a lazy loaded module is loaded?
 
 #### Observables/RxJS Questions:
 
