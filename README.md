@@ -87,8 +87,10 @@ A developer is perfectly able to use Angular to build applications without being
 #### Styling Questions:
 
 * How would you select a custom component to style it.
-* How would you select the parent element of a component?
+* What pseudo-class selector targets styles in the element that hosts the component?
 * How would you select all the child components' elements?
+* How would you select a css class in any ancestor of the component host element, all the way up to the document root?
+* What selector force a style down through the child component tree into all the child component views?
 
 #### Services Questions:
 
