@@ -15,3 +15,9 @@ animations: [
     ])
   ]
   ```
+* How do you define a wildcard state?
+
+```
+* => *
+* => active
+```
