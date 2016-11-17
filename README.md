@@ -48,6 +48,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 ```
 * Why would you use renderer methods instead of using native element methods?
+* What is the  point of calling renderer.invokeElementMethod(rendererEl, methodName)?
 
 #### Template Syntax Questions:
 
