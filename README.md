@@ -32,7 +32,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### Animations Questions:
 
-* How do you define transion between two states in Angular?
+* How do you define transition between two states in Angular?
 * How do you define a wildcard state?
 
 #### Architecture Questions:
