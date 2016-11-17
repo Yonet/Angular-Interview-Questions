@@ -82,6 +82,7 @@ A developer is perfectly able to use Angular to build applications without being
 #### Structural Directives Questions:
 
 * What is a structural directive?
+* How do you identify a structural directive in html?
 
 #### Styling Questions:
 
