@@ -77,6 +77,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What would you have in a shared module?
 * What would you not put shared module?
 * What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
+* What is the purpose of exports in a NgModule?
 
 
 #### Structural Directives Questions:
