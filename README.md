@@ -45,7 +45,9 @@ A developer is perfectly able to use Angular to build applications without being
 
   ```
   @HostBinding('[class.valid]') isValid;
-  ```
+
+```
+* Why would you use renderer methods instead of using native element methods?
 
 #### Template Syntax Questions:
 
