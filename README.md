@@ -213,4 +213,4 @@ export class ContentChildrenComp {
 
 
 #### Contributors:
-* [Aysegul Yonet](https://developers.google.com/experts/people/aysegul-yonet)
+* [Ayşegül Yönet](https://developers.google.com/experts/people/aysegul-yonet)
