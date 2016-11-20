@@ -29,6 +29,7 @@ A developer is perfectly able to use Angular to build applications without being
 #### General Questions:
 
 * What did you learn about Angular 2.0 yesterday/this week?
+* What are some of the reasons you would choose to use Angular 2.0 in your project? 
 
 #### Animations Questions:
 
@@ -99,6 +100,7 @@ A developer is perfectly able to use Angular to build applications without being
 #### Services Questions:
 
 * What is the use case of services?
+* How are the services injected to your application?
 
 #### Testing Questions:
 
