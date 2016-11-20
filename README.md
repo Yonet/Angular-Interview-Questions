@@ -105,6 +105,7 @@ A developer is perfectly able to use Angular to build applications without being
 #### Testing Questions:
 
 * How do you mock a service to inject in a unit test?
+* How do you mock a module in a unit test?
 
 #### Style Guide Questions:
 
@@ -117,7 +118,6 @@ A developer is perfectly able to use Angular to build applications without being
 * What are some ways you may improve your website's scrolling performance?
 * Explain the difference between layout, painting and compositing.
 
-
 #### Lifecycle Hooks Questions:
 
 * What is the possible order of lifecycle hooks.
@@ -129,6 +129,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 * What is a pure pipe?
 * What is an async pipe?
+* What kind of data can be used with async pipe?
 
 #### Routing Questions:
 
