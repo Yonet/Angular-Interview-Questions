@@ -141,7 +141,7 @@ A developer is perfectly able to use Angular to build applications without being
 * When does a lazy loaded module is loaded?
 * Below link doesn't work. Why? How do I fix it?
 ```
-<div routerLink='myRoute.link'></div>
+<div routerLink='product.id'></div>
 ```
 
 #### Observables/RxJS Questions:
