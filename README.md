@@ -85,7 +85,6 @@ A developer is perfectly able to use Angular to build applications without being
 * What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
 * What is the purpose of exports in a NgModule?
 
-
 #### Structural Directives Questions:
 
 * What is a structural directive?
@@ -103,6 +102,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 * What is the use case of services?
 * How are the services injected to your application?
+* How do you unit test a service with a dependency?
 
 #### Testing Questions:
 
