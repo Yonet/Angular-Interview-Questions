@@ -85,10 +85,21 @@ A developer is perfectly able to use Angular to build applications without being
 * What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
 * What is the purpose of exports in a NgModule?
 
+#### Services Questions:
+
+* What is the use case of services?
+* How are the services injected to your application?
+* How do you unit test a service with a dependency?
+
 #### Structural Directives Questions:
 
 * What is a structural directive?
 * How do you identify a structural directive in html?
+
+#### Style Guide Questions:
+
+* What are some of the Angular Style Guide suggestions you follow on your code? Why?
+* Is it important to have a style guide? Why/not?
 
 #### Styling Questions:
 
@@ -97,22 +108,12 @@ A developer is perfectly able to use Angular to build applications without being
 * How would you select all the child components' elements?
 * How would you select a css class in any ancestor of the component host element, all the way up to the document root?
 * What selector force a style down through the child component tree into all the child component views?
-
-#### Services Questions:
-
-* What is the use case of services?
-* How are the services injected to your application?
-* How do you unit test a service with a dependency?
+* What does :host-context() pseudo-class selector targets?
 
 #### Testing Questions:
 
 * How do you mock a service to inject in a unit test?
 * How do you mock a module in a unit test?
-
-#### Style Guide Questions:
-
-* What are some of the Angular Style Guide suggestions you follow on your code? Why?
-* Is it important to have a style guide? Why/not?
 
 #### Performance Questions:
 
