@@ -90,6 +90,10 @@ A developer is perfectly able to use Angular to build applications without being
 * What is the use case of services?
 * How are the services injected to your application?
 * How do you unit test a service with a dependency?
+* Why is it a bad idea to create a new service in a component like the one below?
+```
+let service = new DataService();
+```
 
 #### Structural Directives Questions:
 
