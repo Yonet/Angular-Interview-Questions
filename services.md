@@ -1,6 +1,6 @@
 #### What is the use case of services?
 
-The main use case of Services is to move duplicated code into a single location. It encourages DRY (Don't Repeat Yourself), which is a principle in Software Engineering, aimed at reducing repitition of information or code in a multi-layered architecture. 
+The main use case of Services is to move duplicated code into a single location, acting like a Singleton. It encourages DRY (Don't Repeat Yourself), which is a principle in Software Engineering, aimed at reducing repitition of information or code in a multi-layered architecture. 
 
 Services can serve as a method of interaction between an application and a data store. It also can provide communication channels between directives, as well as any other business logic access.
 

@@ -24,11 +24,10 @@ Yes if the user was expected to navigate between different URLs. The Routing Mod
 
 The RouterModule:
 
-- defines routes
-- adds router configuration to the module's imports
-- re-exports RouterModule
-- adds guard and resolver service providers to the module's providers
-
+- separates our routing concerns from our feature module
+- provides a module to replace or remove when testing our feature module
+- provides a common place for require routing service providers including guards and resolvers
+- is not concerned with feature module declarations
 
 #### When does a lazy loaded module is loaded?
 
