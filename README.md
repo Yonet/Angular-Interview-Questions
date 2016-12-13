@@ -51,6 +51,7 @@ A developer is perfectly able to use Angular to build applications without being
 ```
 * Why would you use renderer methods instead of using native element methods?
 * What is the  point of calling renderer.invokeElementMethod(rendererEl, methodName)?
+* How would you control size of an element on resize of the window in a component?
 
 #### Template Syntax Questions:
 
