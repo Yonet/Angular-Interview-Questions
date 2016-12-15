@@ -139,6 +139,7 @@ let service = new DataService();
 * When will ngInit be called?
 * How would you make use of onNgInit()?
 * What would you consider a thing you should be careful doing on onNgInit()?
+* What is the difference between onNgInit() and constructor() of a component?
 
 #### Pipes Questions:
 
