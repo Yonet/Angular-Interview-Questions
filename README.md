@@ -31,6 +31,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What did you learn about Angular 2.0 yesterday/this week?
 * What are some of the reasons you would choose to use Angular 2.0 in your project?
 * What did you like about working with Angular 2.0?
+* How do you keep your Angular code more readable and maintainable?
 
 #### Animations Questions:
 
