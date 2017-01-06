@@ -153,7 +153,7 @@ let service = new DataService();
 
 #### Routing Questions:
 
-* What is the diffrence between RouterModule.forRoot() vs RouterModule.forChild()?  Why is it important?
+* What is the difference between RouterModule.forRoot() vs RouterModule.forChild()?  Why is it important?
 * How does loadChildren property work?
 * Do you need a Routing Module? Why/not?
 * When does a lazy loaded module is loaded?
@@ -168,7 +168,7 @@ let service = new DataService();
 * What are some of the angular 2 apis that are using observables?
 * How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs? 
 * How would you implement a color picker with rxjs?
-* If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route paramaters and with prev/next buttons).
+* If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
 
 #### TypeScript Questions:
 
