@@ -54,6 +54,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What is the  point of calling renderer.invokeElementMethod(rendererEl, methodName)?
 * How would you control size of an element on resize of the window in a component?
 * What would be a good use for NgZone service?
+* How would you protect a component being activated through the router?
 
 #### Template Syntax Questions:
 
