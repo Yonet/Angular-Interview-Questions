@@ -242,3 +242,5 @@ export class ContentChildrenComp {
 #### Contributors:
 * [Ayşegül Yönet](https://developers.google.com/experts/people/aysegul-yonet)
 * [Mohamad Atieh](https://github.com/MohamadAtieh)
+* [Jay Kan](https://github.com/JayKan)
+* [Matt Carpenter](https://github.com/mattcarp)
