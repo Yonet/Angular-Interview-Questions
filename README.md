@@ -179,6 +179,7 @@ let service = new DataService();
 * What is the difference between an Interface and a Class?
 * First line below gives compile error, second line doesn't. Why?
 * What are Discriminated union types? 
+* How do you define Object of Objects type in typescript?
 
 ```
 someService.someMethod(x);
