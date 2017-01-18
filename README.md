@@ -67,7 +67,6 @@ A developer is perfectly able to use Angular to build applications without being
 * What is the minimum definition of a component?
 * What is the difference between a component and a directive?
 * How do components communicate with each other?
-* What is the difference between a component and a directive?
 * How do you create two way data binding in Angular 2.0?
 * How would you create a component to display error messages throughout your application?
 
