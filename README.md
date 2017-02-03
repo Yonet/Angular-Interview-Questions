@@ -251,3 +251,4 @@ export class ContentChildrenComp {
 * [Mohamad Atieh](https://github.com/MohamadAtieh)
 * [Jay Kan](https://github.com/JayKan)
 * [Matt Carpenter](https://github.com/mattcarp)
+* [Ryan Chenkie](https://github.com/chenkie)
