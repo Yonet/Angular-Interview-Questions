@@ -79,6 +79,13 @@ A developer is perfectly able to use Angular to build applications without being
 #### Forms Questions:
 
 * When do you use template driven vs model driven forms? Why?
+* How do you submit a form?
+* What's the difference between `NgForm`, `FormGroup`, and `FormControl`? How do they work together?
+* What's the advantage of using `FormBuilder`?
+* How do you add form validation to a form built with `FormBuilder`?
+* What's the difference between `dirty`, `touched`, and `pristine` on a form element?
+* How can you access validation errors in the template to display error messages?
+* What is async validation and how is it done?
 
 #### NgModules Questions:
 
