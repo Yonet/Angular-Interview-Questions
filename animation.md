@@ -1,6 +1,7 @@
 * How do you transition between two states:
-```
-animations: [
+
+```ts
+  animations: [
     trigger('heroState', [
       state('inactive', style({
         backgroundColor: '#eee',
@@ -14,10 +15,11 @@ animations: [
       transition('active => inactive', animate('100ms ease-out'))
     ])
   ]
-  ```
+```
+
 * How do you define a wildcard state?
 
-```
+```ts
 * => *
 * => active
 ```
