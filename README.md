@@ -242,7 +242,7 @@ export class ContentChildrenComp {
 * Who inspires you in the angular community?
 * Do you have any pet projects? What kind?
 * How did you design the architecture of your project?
-* What's your favorite feature of Angular 2.0?
+* What's your favorite feature of Angular?
 * How do you like your coffee?
 
 
