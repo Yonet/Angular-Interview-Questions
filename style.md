@@ -11,7 +11,8 @@ We can use the /deep/ selector to force a style down through the child component
  It works just like the function form of :host(). It looks for a CSS class in any ancestor of the component host element, all the way up to the document root. It's useful when combined with another selector.
 
 * What does the following css do?
-```
+
+```css
 :host-context(.theme-light) h2 {
   background-color: red;
 }

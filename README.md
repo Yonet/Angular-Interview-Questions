@@ -1,29 +1,29 @@
 # Angular2-Interview-Questions
 
-This file contains a number of Angular 2.0 interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require. 
+This file contains a number of Angular 2.0 interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
 A developer is perfectly able to use Angular to build applications without being able to answer all of these questions. Addition to having a source for interview questions, my intention is to encourage interested developers to think about these questions. I regularly teach Angular 2 workshops. Oftentimes I do not get enough questions due to limited exposure working with the framework. These questions are the ones I personally needed to answer, to be able lead a team developing our first Angular 2 production application at Autodesk A360.
 
-**Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would. 
+**Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
 ## Table of Contents
 
-  1. [Animations Questions](#animations-questions)
-  1. [Architecture Questions](#architecture-questions)
-  1. [API Questions](#api-questions)
-  1. [Template Questions](#template-questions)
-  1. [Component Questions](#component-questions)
-  1. [Component Interaction & State Management Questions](#component-interaction-&-state-management-questions)
-  1. [Forms Questions](#forms-questions)
-  1. [General Questions](#general-questions)
-  1. [Services Questions](#services-questions)
-  1. [Structural Directives Questions](#structural-directives-questions)
-  1. [Styling Questions](#styling-questions)
-  1. [Style Guide Questions](#style-guide-questions)
-  1. [Testing Questions](#testing-questions)
-  1. [Performance Questions](#performance-questions)
-  1. [Coding Questions](#coding-questions)
-  1. [Fun Questions](#fun-questions)
+* [Animations Questions](#animations-questions)
+* [Architecture Questions](#architecture-questions)
+* [API Questions](#api-questions)
+* [Template Questions](#template-questions)
+* [Component Questions](#component-questions)
+* [Component Interaction & State Management Questions](#component-interaction-&-state-management-questions)
+* [Forms Questions](#forms-questions)
+* [General Questions](#general-questions)
+* [Services Questions](#services-questions)
+* [Structural Directives Questions](#structural-directives-questions)
+* [Styling Questions](#styling-questions)
+* [Style Guide Questions](#style-guide-questions)
+* [Testing Questions](#testing-questions)
+* [Performance Questions](#performance-questions)
+* [Coding Questions](#coding-questions)
+* [Fun Questions](#fun-questions)
 
 
 #### General Questions:
@@ -46,10 +46,10 @@ A developer is perfectly able to use Angular to build applications without being
 
 * What does this line do:
 
+```ts
+@HostBinding('[class.valid]') isValid;
 ```
-  @HostBinding('[class.valid]') isValid;
 
-```
 * Why would you use renderer methods instead of using native element methods?
 * What is the  point of calling renderer.invokeElementMethod(rendererEl, methodName)?
 * How would you control size of an element on resize of the window in a component?
@@ -105,7 +105,8 @@ A developer is perfectly able to use Angular to build applications without being
 * How are the services injected to your application?
 * How do you unit test a service with a dependency?
 * Why is it a bad idea to create a new service in a component like the one below?
-```
+
+```ts
 let service = new DataService();
 ```
 
@@ -128,7 +129,8 @@ let service = new DataService();
 * What selector force a style down through the child component tree into all the child component views?
 * What does :host-context() pseudo-class selector targets?
 * What does the following css do?
-```
+
+```css
 :host-context(.theme-light) h2 {
   background-color: red;
 }
@@ -166,7 +168,8 @@ let service = new DataService();
 * Do you need a Routing Module? Why/not?
 * When does a lazy loaded module is loaded?
 * Below link doesn't work. Why? How do I fix it?
-```
+
+```html
 <div routerLink='product.id'></div>
 ```
 
@@ -174,7 +177,7 @@ let service = new DataService();
 
 * What is the difference between an observable and a promise?
 * What are some of the angular 2 apis that are using observables?
-* How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs? 
+* How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs?
 * How would you implement a color picker with rxjs?
 * If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
 
@@ -184,28 +187,30 @@ let service = new DataService();
 * How would you define a custom type?
 * What is the difference between an Interface and a Class?
 * First line below gives compile error, second line doesn't. Why?
-* What are Discriminated union types? 
+* What are Discriminated union types?
 * How do you define Object of Objects type in typescript?
 
-```
+```ts
 someService.someMethod(x);
 someService['someMethod'](x);
 ```
 
 #### Security Questions:
 
-
+...
 
 #### Coding Questions:
 
 * What would these components render?
 
-```
-import {Component, ContentChildren, Directive, Input, QueryList} from '@angular/core';
+```ts
+import { Component, ContentChildren, Directive, Input, QueryList } from '@angular/core';
+
 @Directive({selector: 'pane'})
 export class Pane {
   @Input() id: string;
 }
+
 @Component({
   selector: 'tab',
   template: `
@@ -216,6 +221,7 @@ export class Tab {
   @ContentChildren(Pane) panes: QueryList<Pane>;
   get serializedPanes(): string { return this.panes ? this.panes.map(p => p.id).join(', ') : ''; }
 }
+
 @Component({
   selector: 'example-app',
   template: `
@@ -231,9 +237,7 @@ export class ContentChildrenComp {
   shouldShow = false;
   show() { this.shouldShow = true; }
 }
-
 ```
-
 
 #### Fun Questions:
 
@@ -244,7 +248,6 @@ export class ContentChildrenComp {
 * How did you design the architecture of your project?
 * What's your favorite feature of Angular?
 * How do you like your coffee?
-
 
 #### Contributors:
 * [Ayşegül Yönet](https://developers.google.com/experts/people/aysegul-yonet)
