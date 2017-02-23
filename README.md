@@ -255,3 +255,4 @@ export class ContentChildrenComp {
 * [Jay Kan](https://github.com/JayKan)
 * [Matt Carpenter](https://github.com/mattcarp)
 * [Ryan Chenkie](https://github.com/chenkie)
+* [Shyam Chen](https://github.com/Shyam-Chen)
