@@ -210,7 +210,7 @@ someService['someMethod'](x);
 
 ```ts
 function createVal(){
-  return Math.random;
+  return Math.random();
 };
 
 function fun( val =  createVal()){
