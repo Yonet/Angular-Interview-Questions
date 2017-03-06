@@ -203,9 +203,24 @@ someService['someMethod'](x);
 #### JavaScript Questions:
 
 * Explain the difference between var, let and const key words.
-* Could you make sure a const value is garbage collected? 
+* Could you make sure a const value is garbage collected?
 * Explain Object.assign and possible use cases.
 * Explain Object.freeze and possible use cases.
+* Explain the code below. How many times the createVal function is called?
+
+```ts
+function createVal(){
+  return Math.random;
+};
+
+function fun( val =  createVal()){
+  // Do something with val...
+}
+
+fun();
+fun(5);
+
+```
 
 #### Coding Questions:
 
