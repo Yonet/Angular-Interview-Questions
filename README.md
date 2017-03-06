@@ -22,6 +22,7 @@ A developer is perfectly able to use Angular to build applications without being
 * [Style Guide Questions](#style-guide-questions)
 * [Testing Questions](#testing-questions)
 * [Performance Questions](#performance-questions)
+* [JavaScript Questions](#javascript-questions)
 * [Coding Questions](#coding-questions)
 * [Fun Questions](#fun-questions)
 
@@ -198,6 +199,13 @@ someService['someMethod'](x);
 #### Security Questions:
 
 ...
+
+#### JavaScript Questions:
+
+* Explain the difference between var, let and const key words.
+* Could you make sure a const value is garbage collected? 
+* Explain Object.assign and possible use cases.
+* Explain Object.freeze and possible use cases.
 
 #### Coding Questions:
 
