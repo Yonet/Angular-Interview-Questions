@@ -52,8 +52,8 @@ A developer is perfectly able to use Angular to build applications without being
 ```
 
 ```html
-<div *ngIf='someObservableData | async as data; else loading'>
-</div>
+<div *ngIf='someObservableData | async as data; else loading'>{{data}}</div>
+
 <ng-template #loading>
   Loading Data...
 </ng-template>
