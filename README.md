@@ -45,10 +45,18 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### API Questions:
 
-* What does this line do:
+* What does this code do:
 
 ```ts
 @HostBinding('[class.valid]') isValid;
+```
+
+```html
+<div *ngIf='someObservableData | async as data; else loading'>
+</div>
+<ng-template #loading>
+  Loading Data...
+</ng-template>
 ```
 
 * Why would you use renderer methods instead of using native element methods?
