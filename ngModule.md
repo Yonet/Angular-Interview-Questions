@@ -1,4 +1,9 @@
 * What is the purpose of NgModule?
+  
+  NgModule helps us to organize our components, directives and services into a logical unit, each focused on a feature.
+  
+  For example, we have 5 components in your project and that each component is dependent on other component or services or pipes then we   need to import them into the respective component. And, then repeat the same process for all other components. This will become         cumbersome to keep including on each of these components. This is where NgModules recuse us by importing everything to @NgModule which   will be available throughout the components under one module. 
+  
 * How do you decide to create a new NgModule?
 * What are the attributes that you can define in an NgModule annotation?
 * What is the difference between a module's forRoot() and forChild() methods and why do you need it?
