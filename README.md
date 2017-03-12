@@ -159,10 +159,10 @@ let service = new DataService();
 #### Lifecycle Hooks Questions:
 
 * What is the possible order of lifecycle hooks.
-* When will ngInit be called?
-* How would you make use of onNgInit()?
-* What would you consider a thing you should be careful doing on onNgInit()?
-* What is the difference between onNgInit() and constructor() of a component?
+* When will ngOnInit be called?
+* How would you make use of ngOnInit()?
+* What would you consider a thing you should be careful doing on ngOnInit()?
+* What is the difference between ngOnInit() and constructor() of a component?
 
 #### Pipes Questions:
 
