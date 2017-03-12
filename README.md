@@ -48,7 +48,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What does this code do:
 
 ```ts
-@HostBinding('[class.valid]') isValid;
+@HostBinding('class.valid') isValid;
 ```
 
 ```html
