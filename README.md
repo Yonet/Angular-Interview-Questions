@@ -288,4 +288,5 @@ export class ContentChildrenComp {
 * [Ryan Chenkie](https://github.com/chenkie)
 * [Shyam Chen](https://github.com/Shyam-Chen)
 * [Josep Sayol](https://github.com/jsayol)
+* [Tiep Phan](https://github.com/tieppt)
 * You?
