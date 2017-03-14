@@ -2,7 +2,7 @@
 
 This file contains a number of Angular 4.0.0 and higher interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
-A developer is perfectly able to use Angular to build applications without being able to answer all of these questions. Addition to having a source for interview questions, my intention is to encourage interested developers to think about these questions. I regularly teach Angular 2 workshops. Oftentimes I do not get enough questions due to limited exposure working with the framework. These questions are the ones I personally needed to answer, to be able lead a team developing our first Angular 2 production application at Autodesk A360.
+A developer is perfectly able to use Angular to build applications without being able to answer all of these questions. Addition to having a source for interview questions, my intention is to encourage interested developers to think about these questions. I regularly teach Angular workshops. Oftentimes I do not get enough questions due to limited exposure working with the framework. These questions are the ones I personally needed to answer, to be able lead a team developing our first Angular production application at Autodesk A360.
 
 **Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
@@ -29,9 +29,9 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### General Questions:
 
-* What did you learn about Angular 2.0 yesterday/this week?
-* What are some of the reasons you would choose to use Angular 2.0 in your project?
-* What did you like about working with Angular 2.0?
+* What did you learn about Angular yesterday/this week?
+* What are some of the reasons you would choose to use Angular in your project?
+* What did you like about working with Angular?
 * How do you keep your Angular code more readable and maintainable?
 
 #### Animations Questions:
