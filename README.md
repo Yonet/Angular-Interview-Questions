@@ -84,6 +84,8 @@ A developer is perfectly able to use Angular to build applications without being
 * How would you pass data from a parent component to a child component?
 * How would you pass data from a child component to a parent component?
 * Which components will be notified when an event is emitted?
+* Tell me about the different ways how you would get data to your components from a service and talk about why would you use one way vs the other?
+* How would you use cached data?
 
 #### Forms Questions:
 
