@@ -50,3 +50,11 @@ The routerLink should specify a defined path in the routing configuration and th
 ```
 
 The above is correct in the case of having `product/:id` as a path in the application router configuration.
+
+
+#### Can you explain the difference between ActivatedRoute and RouterState?
+
+After the end of each successful navigation lifecycle, the router builds a tree of ActivatedRoute objects that make up the current state of the router. We can access the current RouterState from anywhere in our application using the Router service and the routerState property. 
+
+RouterState is the current state of the router including a tree of the currently activated routes in our application along     convenience methods for traversing the route tree.
+
