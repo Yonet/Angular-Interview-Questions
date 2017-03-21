@@ -185,6 +185,8 @@ let service = new DataService();
 <div routerLink='product.id'></div>
 ```
 
+* Can you explain the difference between ActivatedRoute and RouterState?
+
 #### Observables/RxJS Questions:
 
 * What is the difference between an observable and a promise?
