@@ -274,10 +274,10 @@ export class ContentChildrenComp {
 
 #### Contributors:
 * [Ayşegül Yönet](https://developers.google.com/experts/people/aysegul-yonet)
+* [Bhanu Chamakuri](https://github.com/bhanu7755)
 * [Mohamad Atieh](https://github.com/MohamadAtieh)
 * [Jay Kan](https://github.com/JayKan)
 * [Matt Carpenter](https://github.com/mattcarp)
 * [Ryan Chenkie](https://github.com/chenkie)
 * [Shyam Chen](https://github.com/Shyam-Chen)
-* [Bhanu Chamakuri](https://github.com/bhanu7755)
 
