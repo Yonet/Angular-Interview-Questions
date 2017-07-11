@@ -207,13 +207,14 @@ let service = new DataService();
 * How would you define a custom type?
 * What is the difference between an Interface and a Class?
 * First line below gives compile error, second line doesn't. Why?
-* What are Discriminated union types?
-* How do you define Object of Objects type in typescript?
 
 ```ts
 someService.someMethod(x);
 someService['someMethod'](x);
 ```
+
+* What are Discriminated union types?
+* How do you define Object of Objects type in typescript?
 
 #### Security Questions:
 
