@@ -156,6 +156,7 @@ let service = new DataService();
 #### Performance Questions:
 
 * What tools would you use to find a performance issue in your code?
+* What tools have you used to improve the performance of your application?
 * What are some ways you may improve your website's scrolling performance?
 * Explain the difference between layout, painting and compositing.
 * Have you seen Jeff Cross's NgCruise talk on performance?
