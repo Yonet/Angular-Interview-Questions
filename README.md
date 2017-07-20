@@ -126,6 +126,7 @@ let service = new DataService();
 
 * What is a structural directive?
 * How do you identify a structural directive in html?
+* When creating your own structural directives, how would you decide on hiding or removing an element? What would be the advantages or disadvantages of choosing one method rather than the other? 
 
 #### Style Guide Questions:
 
