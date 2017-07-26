@@ -11,17 +11,18 @@ A developer is perfectly able to use Angular to build applications without being
 * [Animations Questions](#animations-questions)
 * [Architecture Questions](#architecture-questions)
 * [API Questions](#api-questions)
-* [Template Questions](#template-questions)
 * [Component Questions](#component-questions)
 * [Component Interaction & State Management Questions](#component-interaction-&-state-management-questions)
 * [Forms Questions](#forms-questions)
 * [General Questions](#general-questions)
+* [Observables/RxJS Questions](#observables/rxjs-questions)
+* [Performance Questions](#performance-questions)
 * [Services Questions](#services-questions)
 * [Structural Directives Questions](#structural-directives-questions)
 * [Styling Questions](#styling-questions)
 * [Style Guide Questions](#style-guide-questions)
+* [Template Questions](#template-questions)
 * [Testing Questions](#testing-questions)
-* [Performance Questions](#performance-questions)
 * [JavaScript Questions](#javascript-questions)
 * [Coding Questions](#coding-questions)
 * [Fun Questions](#fun-questions)
@@ -194,6 +195,7 @@ let service = new DataService();
 #### Observables/RxJS Questions:
 
 * What is the difference between an observable and a promise?
+* What is the difference between an observable and a subject?
 * What are some of the angular apis that are using observables?
 * How would you cache an observable data?
 * How would you implement a multiple api calls that needs to happen in order using rxjs?
