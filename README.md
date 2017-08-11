@@ -1,8 +1,8 @@
-# Angular2-Interview-Questions
+# Angular-Interview-Questions
 
-This file contains a number of Angular 2.0 interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+This file contains a number of Angular 4.0.0 and higher interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
-A developer is perfectly able to use Angular to build applications without being able to answer all of these questions. Addition to having a source for interview questions, my intention is to encourage interested developers to think about these questions. I regularly teach Angular 2 workshops. Oftentimes I do not get enough questions due to limited exposure working with the framework. These questions are the ones I personally needed to answer, to be able lead a team developing our first Angular 2 production application at Autodesk A360.
+A developer is perfectly able to use Angular to build applications without being able to answer all of these questions. Addition to having a source for interview questions, my intention is to encourage interested developers to think about these questions. I regularly teach Angular workshops. Oftentimes I do not get enough questions due to limited exposure working with the framework. These questions are the ones I personally needed to answer, to be able lead a team developing our first Angular production application at Autodesk A360.
 
 **Note:** Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 
@@ -11,17 +11,18 @@ A developer is perfectly able to use Angular to build applications without being
 * [Animations Questions](#animations-questions)
 * [Architecture Questions](#architecture-questions)
 * [API Questions](#api-questions)
-* [Template Questions](#template-questions)
 * [Component Questions](#component-questions)
 * [Component Interaction & State Management Questions](#component-interaction-&-state-management-questions)
 * [Forms Questions](#forms-questions)
 * [General Questions](#general-questions)
+* [Observables/RxJS Questions](#observables/rxjs-questions)
+* [Performance Questions](#performance-questions)
 * [Services Questions](#services-questions)
 * [Structural Directives Questions](#structural-directives-questions)
 * [Styling Questions](#styling-questions)
 * [Style Guide Questions](#style-guide-questions)
+* [Template Questions](#template-questions)
 * [Testing Questions](#testing-questions)
-* [Performance Questions](#performance-questions)
 * [JavaScript Questions](#javascript-questions)
 * [Coding Questions](#coding-questions)
 * [Fun Questions](#fun-questions)
@@ -29,9 +30,9 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### General Questions:
 
-* What did you learn about Angular 2.0 yesterday/this week?
-* What are some of the reasons you would choose to use Angular 2.0 in your project?
-* What did you like about working with Angular 2.0?
+* What did you learn about Angular yesterday/this week?
+* What are some of the reasons you would choose to use Angular in your project?
+* What did you like about working with Angular?
 * How do you keep your Angular code more readable and maintainable?
 
 #### Animations Questions:
@@ -45,10 +46,18 @@ A developer is perfectly able to use Angular to build applications without being
 
 #### API Questions:
 
-* What does this line do:
+* What does this code do:
 
 ```ts
-@HostBinding('[class.valid]') isValid;
+@HostBinding('class.valid') isValid;
+```
+
+```html
+<div *ngIf='someObservableData | async as data; else loading'>{{data}}</div>
+
+<ng-template #loading>
+  Loading Data...
+</ng-template>
 ```
 
 * Why would you use renderer methods instead of using native element methods?
@@ -68,14 +77,17 @@ A developer is perfectly able to use Angular to build applications without being
 * What is the minimum definition of a component?
 * What is the difference between a component and a directive?
 * How do components communicate with each other?
-* How do you create two way data binding in Angular 2.0?
+* How do you create two way data binding in Angular?
 * How would you create a component to display error messages throughout your application?
+* What does a lean component mean to you?
 
 #### Component Interaction & State Management Questions:
 
 * How would you pass data from a parent component to a child component?
 * How would you pass data from a child component to a parent component?
 * Which components will be notified when an event is emitted?
+* Tell me about the different ways how you would get data to your components from a service and talk about why would you use one way vs the other?
+* How would you use cached data?
 
 #### Forms Questions:
 
@@ -115,6 +127,7 @@ let service = new DataService();
 
 * What is a structural directive?
 * How do you identify a structural directive in html?
+* When creating your own structural directives, how would you decide on hiding or removing an element? What would be the advantages or disadvantages of choosing one method rather than the other? 
 
 #### Style Guide Questions:
 
@@ -145,22 +158,25 @@ let service = new DataService();
 #### Performance Questions:
 
 * What tools would you use to find a performance issue in your code?
+* What tools have you used to improve the performance of your application?
 * What are some ways you may improve your website's scrolling performance?
 * Explain the difference between layout, painting and compositing.
+* Have you seen Jeff Cross's NgCruise talk on performance?
 
 #### Lifecycle Hooks Questions:
 
 * What is the possible order of lifecycle hooks.
-* When will ngInit be called?
-* How would you make use of onNgInit()?
-* What would you consider a thing you should be careful doing on onNgInit()?
-* What is the difference between onNgInit() and constructor() of a component?
+* When will ngOnInit be called?
+* How would you make use of ngOnInit()?
+* What would you consider a thing you should be careful doing on ngOnInit()?
+* What is the difference between ngOnInit() and constructor() of a component?
 
 #### Pipes Questions:
 
 * What is a pure pipe?
 * What is an async pipe?
 * What kind of data can be used with async pipe?
+* How do you create a custom pipe?
 
 #### Routing Questions:
 
@@ -174,10 +190,16 @@ let service = new DataService();
 <div routerLink='product.id'></div>
 ```
 
+* Can you explain the difference between ActivatedRoute and RouterState?
+
 #### Observables/RxJS Questions:
 
 * What is the difference between an observable and a promise?
-* What are some of the angular 2 apis that are using observables?
+* What is the difference between an observable and a subject?
+* What are some of the angular apis that are using observables?
+* How would you cache an observable data?
+* How would you implement a multiple api calls that needs to happen in order using rxjs?
+* How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
 * How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs?
 * How would you implement a color picker with rxjs?
 * If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
@@ -188,13 +210,14 @@ let service = new DataService();
 * How would you define a custom type?
 * What is the difference between an Interface and a Class?
 * First line below gives compile error, second line doesn't. Why?
-* What are Discriminated union types?
-* How do you define Object of Objects type in typescript?
 
 ```ts
 someService.someMethod(x);
 someService['someMethod'](x);
 ```
+
+* What are Discriminated union types?
+* How do you define Object of Objects type in typescript?
 
 #### Security Questions:
 
@@ -280,4 +303,7 @@ export class ContentChildrenComp {
 * [Matt Carpenter](https://github.com/mattcarp)
 * [Ryan Chenkie](https://github.com/chenkie)
 * [Shyam Chen](https://github.com/Shyam-Chen)
-
+* [Josep Sayol](https://github.com/jsayol)
+* [Tiep Phan](https://github.com/tieppt)
+* [Igor Fesenko](https://github.com/Ky7m)
+* You?
