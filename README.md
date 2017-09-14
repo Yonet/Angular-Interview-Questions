@@ -298,7 +298,6 @@ export class ContentChildrenComp {
 
 #### Contributors:
 * [Ayşegül Yönet](https://developers.google.com/experts/people/aysegul-yonet)
-* [Bhanu Chamakuri](https://github.com/bhanu7755)
 * [Mohamad Atieh](https://github.com/MohamadAtieh)
 * [Jay Kan](https://github.com/JayKan)
 * [Matt Carpenter](https://github.com/mattcarp)
@@ -307,4 +306,7 @@ export class ContentChildrenComp {
 * [Josep Sayol](https://github.com/jsayol)
 * [Tiep Phan](https://github.com/tieppt)
 * [Igor Fesenko](https://github.com/Ky7m)
+* [Stephan](https://github.com/styopdev)
+* [Bhanu Chamakuri](https://github.com/bhanu7755)
+* [Nanda](https://github.com/vivek4321)
 * You?
