@@ -1,3 +1,6 @@
+* What is a good use case for ngrx/store?
+
+Here is a great talk that goes into detail of the problems ngrx solving to manage state in applications by [Victor Savkin](https://twitter.com/victorsavkin?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor): https://www.youtube.com/watch?v=brCGZ8Lk-HY&t=1245s
 
 * Can you talk about a bug related to a race condition, how to solve it and how to test it?
 
