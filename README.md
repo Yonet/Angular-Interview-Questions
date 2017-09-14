@@ -16,12 +16,14 @@ A developer is perfectly able to use Angular to build applications without being
 * [Component Interaction & State Management Questions](#component-interaction--state-management-questions)
 * [Forms Questions](#forms-questions)
 * [General Questions](#general-questions)
+* [Observables/RxJS Questions](#observables/rxjs-questions)
+* [Performance Questions](#performance-questions)
 * [Services Questions](#services-questions)
 * [Structural Directives Questions](#structural-directives-questions)
 * [Styling Questions](#styling-questions)
 * [Style Guide Questions](#style-guide-questions)
+* [Template Questions](#template-questions)
 * [Testing Questions](#testing-questions)
-* [Performance Questions](#performance-questions)
 * [JavaScript Questions](#javascript-questions)
 * [Coding Questions](#coding-questions)
 * [Fun Questions](#fun-questions)
@@ -126,6 +128,7 @@ let service = new DataService();
 
 * What is a structural directive?
 * How do you identify a structural directive in html?
+* When creating your own structural directives, how would you decide on hiding or removing an element? What would be the advantages or disadvantages of choosing one method rather than the other? 
 
 #### Style Guide Questions:
 
@@ -193,6 +196,7 @@ let service = new DataService();
 #### Observables/RxJS Questions:
 
 * What is the difference between an observable and a promise?
+* What is the difference between an observable and a subject?
 * What are some of the angular apis that are using observables?
 * How would you cache an observable data?
 * How would you implement a multiple api calls that needs to happen in order using rxjs?
