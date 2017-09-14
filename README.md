@@ -44,6 +44,7 @@ A developer is perfectly able to use Angular to build applications without being
 #### Architecture Questions:
 
 * What is a good use case for ngrx/store?
+* Can you talk about a bug related to a race condition, how to solve it and how to test it?
 
 #### API Questions:
 
