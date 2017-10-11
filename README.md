@@ -295,6 +295,7 @@ export class ContentChildrenComp {
 * Do you have any pet projects? What kind?
 * How did you design the architecture of your project?
 * What's your favorite feature of Angular?
+* What is your least favorite thing about Angular? (Please share your thoughts [angularFeelings](https://github.com/Yonet/Angular-Interview-Questions/blob/master/angularFeelings.md))
 * How do you like your coffee?
 
 #### Contributors:
