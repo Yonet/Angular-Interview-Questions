@@ -18,6 +18,8 @@ A developer is perfectly able to use Angular to build applications without being
 * [General Questions](#general-questions)
 * [Observables/RxJS Questions](#observables/rxjs-questions)
 * [Performance Questions](#performance-questions)
+* [Pipes Questions](#pipes-questions)
+* [Router Questions](#router-questions)
 * [Services Questions](#services-questions)
 * [Structural Directives Questions](#structural-directives-questions)
 * [Styling Questions](#styling-questions)
@@ -152,10 +154,26 @@ let service = new DataService();
 }
 ```
 
-#### Testing Questions:
+#### Lifecycle Hooks Questions:
 
-* How do you mock a service to inject in a unit test?
-* How do you mock a module in a unit test?
+* What is the possible order of lifecycle hooks.
+* When will ngOnInit be called?
+* How would you make use of ngOnInit()?
+* What would you consider a thing you should be careful doing on ngOnInit()?
+* What is the difference between ngOnInit() and constructor() of a component?
+
+
+#### Observables/RxJS Questions:
+
+* What is the difference between an observable and a promise?
+* What is the difference between an observable and a subject?
+* What are some of the angular apis that are using observables?
+* How would you cache an observable data?
+* How would you implement a multiple api calls that needs to happen in order using rxjs?
+* How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
+* How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs?
+* How would you implement a color picker with rxjs?
+* If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
 
 #### Performance Questions:
 
@@ -164,14 +182,6 @@ let service = new DataService();
 * What are some ways you may improve your website's scrolling performance?
 * Explain the difference between layout, painting and compositing.
 * Have you seen Jeff Cross's NgCruise talk on performance?
-
-#### Lifecycle Hooks Questions:
-
-* What is the possible order of lifecycle hooks.
-* When will ngOnInit be called?
-* How would you make use of ngOnInit()?
-* What would you consider a thing you should be careful doing on ngOnInit()?
-* What is the difference between ngOnInit() and constructor() of a component?
 
 #### Pipes Questions:
 
@@ -193,18 +203,15 @@ let service = new DataService();
 ```
 
 * Can you explain the difference between ActivatedRoute and RouterState?
+* How do you debug router?
 
-#### Observables/RxJS Questions:
+#### Security Questions:
 
-* What is the difference between an observable and a promise?
-* What is the difference between an observable and a subject?
-* What are some of the angular apis that are using observables?
-* How would you cache an observable data?
-* How would you implement a multiple api calls that needs to happen in order using rxjs?
-* How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
-* How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs?
-* How would you implement a color picker with rxjs?
-* If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
+
+#### Testing Questions:
+
+* How do you mock a service to inject in a unit test?
+* How do you mock a module in a unit test?
 
 #### TypeScript Questions:
 
@@ -220,10 +227,6 @@ someService['someMethod'](x);
 
 * What are Discriminated union types?
 * How do you define Object of Objects type in typescript?
-
-#### Security Questions:
-
-...
 
 #### JavaScript Questions:
 
