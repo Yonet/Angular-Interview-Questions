@@ -192,7 +192,7 @@ let service = new DataService();
 * How do you create a custom pipe?
 * How does async pipe prevents memory leeks?
 
-#### Routing Questions:
+#### Router Questions:
 
 * What is the difference between RouterModule.forRoot() vs RouterModule.forChild()?  Why is it important?
 * How does loadChildren property work?
