@@ -8,7 +8,6 @@ Binds a host element property (here, the CSS class valid) to a directive/compone
 
 
 * Why would you use renderer methods instead of using native element methods?
-* What is the  point of calling renderer.invokeElementMethod(rendererEl, methodName)?
 * How would you control size of an element on resize of the window in a component?
 * What would be a good use for NgZone service?
 
@@ -18,7 +17,7 @@ The most common use of this service is to optimize performance when starting a w
 
 - Provide your own `NgZone` instance.
 - `zone.js` - Use default `NgZone` which requires `Zone.js`.
-- `noop` - Use `NoopNgZone` which does nothing. You need to use async filter or manage change detection manually. 
+- `noop` - Use `NoopNgZone` which does nothing. You need to use async filter or manage change detection manually.
 
 source:[https://github.com/angular/angular/commit/344a5ca#diff-0ef0b3df44ffd7a42aab5233a1a3defc]
 
