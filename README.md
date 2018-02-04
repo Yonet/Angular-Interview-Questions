@@ -47,6 +47,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 * What is a good use case for ngrx/store?
 * Can you talk about a bug related to a race condition, how to solve it and how to test it?
+* What is the difference between a smart/container component and dumb/presentational component? What is a good use case example? What are the advantages?
 
 #### API Questions:
 
@@ -76,6 +77,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 * How can you add an active class to a selected element in a list component?
 * What is a template variable. How would you use it?
+* What is the difference of using a property binding verses a function binding on a template?
 
 #### Component Questions:
 
@@ -162,6 +164,7 @@ let service = new DataService();
 * How would you make use of ngOnInit()?
 * What would you consider a thing you should be careful doing on ngOnInit()?
 * What is the difference between ngOnInit() and constructor() of a component?
+* What is a good use case for ngOnChanges()?
 
 
 #### Observables/RxJS Questions:
@@ -178,6 +181,7 @@ let service = new DataService();
 
 #### Performance Questions:
 
+* What are some of the things that you pay attention to, to make sure your angular application is performant?
 * What tools would you use to find a performance issue in your code?
 * What tools have you used to improve the performance of your application?
 * What are some ways you may improve your website's scrolling performance?
