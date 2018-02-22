@@ -174,6 +174,7 @@ let service = new DataService();
 * What are some of the angular apis that are using observables?
 * How would you cache an observable data?
 * How would you implement a multiple api calls that needs to happen in order using rxjs?
+* What is the difference between switchMap, concatMap and mergeMap?
 * How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
 * How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs?
 * How would you implement a color picker with rxjs?
