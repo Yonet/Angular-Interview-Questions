@@ -8,4 +8,4 @@ You can find the answer of this question in detail in this article: https://blog
 
 * What is the difference between a smart/container component and dumb/presentational component? What is a good use case example? What are the advantages?
 
-You can find the answer of question in the great article from [Dan Abramov](https://twitter.com/dan_abramov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor): https://goo.gl/GnoSAa
+You can find the answer of this question in the great article from [Dan Abramov](https://twitter.com/dan_abramov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor): https://goo.gl/GnoSAa
