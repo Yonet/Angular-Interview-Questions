@@ -7,7 +7,10 @@
 Binds a host element property (here, the CSS class valid) to a directive/component property (isValid).
 
 
-* Why would you use renderer methods instead of using native element methods?
+* Why would you use renderer2 methods instead of using native element methods?
+
+Renderer2 class is an abstraction provided by Angular to manipulate elements without touching directly. Using renderer service will provide us opportunity to be able to execute manipulations in non-DOM environments like native mobile, desktop and web worker rendering.
+
 * How would you control size of an element on resize of the window in a component?
 * What would be a good use for NgZone service?
 

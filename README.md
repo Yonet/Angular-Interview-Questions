@@ -16,6 +16,7 @@ A developer is perfectly able to use Angular to build applications without being
 * [Component Interaction & State Management Questions](#component-interaction--state-management-questions)
 * [Forms Questions](#forms-questions)
 * [General Questions](#general-questions)
+* [NgModules Questions](#ngmodules-questions)
 * [Observables/RxJS Questions](#observables/rxjs-questions)
 * [Performance Questions](#performance-questions)
 * [Pipes Questions](#pipes-questions)
@@ -47,6 +48,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 * What is a good use case for ngrx/store?
 * Can you talk about a bug related to a race condition, how to solve it and how to test it?
+* What is the difference between a smart/container component and dumb/presentational component? What is a good use case example? What are the advantages?
 
 #### API Questions:
 
@@ -75,6 +77,7 @@ A developer is perfectly able to use Angular to build applications without being
 
 * How can you add an active class to a selected element in a list component?
 * What is a template variable. How would you use it?
+* What is the difference of using a property binding verses a function binding on a template?
 
 #### Component Questions:
 
@@ -114,6 +117,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What would you not put shared module?
 * What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
 * What is the purpose of exports in a NgModule?
+* What is the difference between exports and declerations in NgModule?
 * Why is it bad if SharedModule provides a service to a lazy loaded module?
 
 #### Services Questions:
@@ -161,6 +165,7 @@ let service = new DataService();
 * How would you make use of ngOnInit()?
 * What would you consider a thing you should be careful doing on ngOnInit()?
 * What is the difference between ngOnInit() and constructor() of a component?
+* What is a good use case for ngOnChanges()?
 
 
 #### Observables/RxJS Questions:
@@ -170,6 +175,7 @@ let service = new DataService();
 * What are some of the angular apis that are using observables?
 * How would you cache an observable data?
 * How would you implement a multiple api calls that needs to happen in order using rxjs?
+* What is the difference between switchMap, concatMap and mergeMap?
 * How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
 * How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs?
 * How would you implement a color picker with rxjs?
@@ -177,6 +183,7 @@ let service = new DataService();
 
 #### Performance Questions:
 
+* What are some of the things that you pay attention to, to make sure your angular application is performant?
 * What tools would you use to find a performance issue in your code?
 * What tools have you used to improve the performance of your application?
 * What are some ways you may improve your website's scrolling performance?
@@ -301,6 +308,7 @@ export class ContentChildrenComp {
 * What's your favorite feature of Angular?
 * What is your least favorite thing about Angular? (Please share your thoughts by making a pull request to [angularFeelings](https://github.com/Yonet/Angular-Interview-Questions/blob/master/angularFeelings.md))
 * How do you like your coffee?
+* If you could decide on a new feature for angular, what would it be?
 
 #### Contributors:
 * [Ayşegül Yönet](https://developers.google.com/experts/people/aysegul-yonet)
@@ -315,4 +323,5 @@ export class ContentChildrenComp {
 * [Stephan](https://github.com/styopdev)
 * [Bhanu Chamakuri](https://github.com/bhanu7755)
 * [Nanda](https://github.com/vivek4321)
+*[Bhanu Chamakuri](https://github.com/bhanu7755)
 * You?

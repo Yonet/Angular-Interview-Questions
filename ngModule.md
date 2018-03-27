@@ -12,11 +12,40 @@
  
 * What are the attributes that you can define in an NgModule annotation?
 * What is the difference between a module's forRoot() and forChild() methods and why do you need it?
-* What would you have in a shared module?
-* What would you not put shared module?
-* What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
-* What is the purpose of exports in a NgModule?
+  We all know that when a module provides a service and imported by a lazy loaded module, new instance of the service will be created by angular.
+  Therefore, we usually try to avoid define services in modules that will be imported by many other module. However, there may be some cases which contradict this approach. Take a look at Angular RouterModule https://angular.io/guide/router#configuration
 
+  RouterModule declares and exports some directives, e.g. router-outlet, routerLink, routerLinkActive etc.
+  Also, it provides some services e.g. Router, ActivatedRoute etc. 
+  Take a look at the source https://github.com/angular/angular/blob/master/packages/router/src/router_module.ts
+  To avoid having multiple instances of services, RouterModule defines two methods, "forRoot" and "forChild". As the name suggests, "forRoot" method should be called only by root module, i.e. app.module, and forChild should be called by other feature modules. This way, you still get to use directives, components, pipes exported by this module and don't get new instances of services. 
+  If you want to define such module yourself, you can do it as following
+
+  ```ts
+  @NgModule({
+    declarations: [MyAwesomeComponent, MyCoolDirective],
+    exports: [MyAwesomeComponent, MyCoolDirective]
+  })
+  export class MyAwesomeModule { 
+    static forRoot(): ModuleWithProviders {
+      return {
+        ngModule: MyAwesomeModule,
+        providers: [MyBrilliantService]
+      }
+    }
+  }
+  ```
+* What would you have in a shared module?
+  I would put directives, pipes, components and other modules that are used throughout my application and export them from this shared module. 
+  This way, I would not have to declare/import same components/modules everywhere.
+* What would you not put shared module?
+  I would not put services in a shared module which may be imported by a lazy loaded module. When a lazy loaded module imports a module which provide a service,
+  angular will create another instance of this service which may result in unexpected behaviors.
+* What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
+  I would create a core module and provide all the singleton services I have from this module. I would import this module only in app.module so that,
+  all the feature modules, even the lazy loaded ones, would use same instances of the services.
+* What is the purpose of exports in a NgModule?
+  To make components/directives/pipes/modules available to other modules that import this module.
 * Why is it bad if SharedModule provides a service to a lazy loaded module?
 
   This question arose in the Angular Module chapter when we discussed the importance of keeping providers out of the SharedModule.
