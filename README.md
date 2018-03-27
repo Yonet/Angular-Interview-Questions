@@ -67,7 +67,6 @@ A developer is perfectly able to use Angular to build applications without being
 ```
 
 * Why would you use renderer methods instead of using native element methods?
-* What is the  point of calling renderer.invokeElementMethod(rendererEl, methodName)?
 * How would you control size of an element on resize of the window in a component?
 * What would be a good use for NgZone service?
 * What are the bootstrap options for NgZone? Why would you use them? (Angular 5+)
@@ -136,7 +135,7 @@ let service = new DataService();
 
 * What is a structural directive?
 * How do you identify a structural directive in html?
-* When creating your own structural directives, how would you decide on hiding or removing an element? What would be the advantages or disadvantages of choosing one method rather than the other? 
+* When creating your own structural directives, how would you decide on hiding or removing an element? What would be the advantages or disadvantages of choosing one method rather than the other?
 
 #### Style Guide Questions:
 

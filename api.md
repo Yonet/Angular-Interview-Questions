@@ -10,6 +10,7 @@ Binds a host element property (here, the CSS class valid) to a directive/compone
 * Why would you use renderer2 methods instead of using native element methods?
 
 Renderer2 class is an abstraction provided by Angular to manipulate elements without touching directly. Using renderer service will provide us opportunity to be able to execute manipulations in non-DOM environments like native mobile, desktop and web worker rendering.
+
 * How would you control size of an element on resize of the window in a component?
 * What would be a good use for NgZone service?
 
@@ -19,7 +20,7 @@ The most common use of this service is to optimize performance when starting a w
 
 - Provide your own `NgZone` instance.
 - `zone.js` - Use default `NgZone` which requires `Zone.js`.
-- `noop` - Use `NoopNgZone` which does nothing. You need to use async filter or manage change detection manually. 
+- `noop` - Use `NoopNgZone` which does nothing. You need to use async filter or manage change detection manually.
 
 source:[https://github.com/angular/angular/commit/344a5ca#diff-0ef0b3df44ffd7a42aab5233a1a3defc]
 
