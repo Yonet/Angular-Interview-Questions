@@ -16,6 +16,7 @@ A developer is perfectly able to use Angular to build applications without being
 * [Component Interaction & State Management Questions](#component-interaction--state-management-questions)
 * [Forms Questions](#forms-questions)
 * [General Questions](#general-questions)
+* [NgModules Questions](#ngmodules-questions)
 * [Observables/RxJS Questions](#observables/rxjs-questions)
 * [Performance Questions](#performance-questions)
 * [Pipes Questions](#pipes-questions)
