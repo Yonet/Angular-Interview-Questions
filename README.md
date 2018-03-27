@@ -323,5 +323,8 @@ export class ContentChildrenComp {
 * [Stephan](https://github.com/styopdev)
 * [Bhanu Chamakuri](https://github.com/bhanu7755)
 * [Nanda](https://github.com/vivek4321)
-*[Bhanu Chamakuri](https://github.com/bhanu7755)
+* [Meow Zedong](https://github.com/therealmeowzedong)
+* [Benjamin Cabanes](https://github.com/bcabanes)
+* [Bunyamin Coskuner](https://github.com/bnymncoskuner)
+* [Ha Hoang](https://github.com/sau-lanvy)
 * You?
