@@ -78,6 +78,7 @@ A developer is perfectly able to use Angular to build applications without being
 * How can you add an active class to a selected element in a list component?
 * What is a template variable. How would you use it?
 * What is the difference of using a property binding verses a function binding on a template?
+* What happens if you subscribe to a data source multiple times with async pipe?
 
 #### Component Questions:
 
