@@ -258,6 +258,11 @@ fun();
 fun(5);
 
 ```
+* What is the spread operator doing in this function call? Seriously!
+
+```
+doStuff(...args);
+```
 
 #### Coding Questions:
 
