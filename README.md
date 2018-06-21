@@ -181,6 +181,7 @@ let service = new DataService();
 * How would you implement a [brush behavior](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172) using rxjs?
 * How would you implement a color picker with rxjs?
 * If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
+* What is the difference between `scan()` vs `reduce()` ?
 
 #### Performance Questions:
 
@@ -213,6 +214,8 @@ let service = new DataService();
 
 * Can you explain the difference between ActivatedRoute and RouterState?
 * How do you debug router?
+* Why do we need route guards?
+* What is a RouterOutlet?
 
 #### Security Questions:
 
@@ -333,4 +336,5 @@ export class ContentChildrenComp {
 * [Benjamin Cabanes](https://github.com/bcabanes)
 * [Bunyamin Coskuner](https://github.com/bnymncoskuner)
 * [Ha Hoang](https://github.com/sau-lanvy)
+* [Merve Ağca](https://github.com/merveagca)
 * You?
