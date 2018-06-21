@@ -198,6 +198,7 @@ let service = new DataService();
 * What kind of data can be used with async pipe?
 * How do you create a custom pipe?
 * How does async pipe prevents memory leeks?
+* What is the difference between pure and impure pipes?
 
 #### Router Questions:
 
@@ -336,4 +337,5 @@ export class ContentChildrenComp {
 * [Bunyamin Coskuner](https://github.com/bnymncoskuner)
 * [Ha Hoang](https://github.com/sau-lanvy)
 * [Merve Ağca](https://github.com/merveagca)
+* [Ahmet Zeybek](https://github.com/ahmetzeybek)
 * You?
