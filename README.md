@@ -17,7 +17,7 @@ A developer is perfectly able to use Angular to build applications without being
 * [Forms Questions](#forms-questions)
 * [General Questions](#general-questions)
 * [NgModules Questions](#ngmodules-questions)
-* [Observables/RxJS Questions](#observables/rxjs-questions)
+* [Observables RxJS Questions](#observables-rxjs-questions)
 * [Performance Questions](#performance-questions)
 * [Pipes Questions](#pipes-questions)
 * [Router Questions](#router-questions)
@@ -25,7 +25,6 @@ A developer is perfectly able to use Angular to build applications without being
 * [Structural Directives Questions](#structural-directives-questions)
 * [Styling Questions](#styling-questions)
 * [Style Guide Questions](#style-guide-questions)
-* [Template Questions](#template-questions)
 * [Testing Questions](#testing-questions)
 * [JavaScript Questions](#javascript-questions)
 * [Coding Questions](#coding-questions)
@@ -169,7 +168,7 @@ let service = new DataService();
 * What is a good use case for ngOnChanges()?
 
 
-#### Observables/RxJS Questions:
+#### Observables RxJS Questions:
 
 * What is the difference between an observable and a promise?
 * What is the difference between an observable and a subject?
