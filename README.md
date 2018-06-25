@@ -37,6 +37,8 @@ A developer is perfectly able to use Angular to build applications without being
 * What are some of the reasons you would choose to use Angular in your project?
 * What did you like about working with Angular?
 * How do you keep your Angular code more readable and maintainable?
+* What does testable code mean to you in context of Angular?
+* What does reusable code mean to you in context of Angular?
 
 #### Animations Questions:
 
