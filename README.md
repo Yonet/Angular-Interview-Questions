@@ -73,6 +73,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What are the bootstrap options for NgZone? Why would you use them? (Angular 5+)
 * How would you protect a component being activated through the router?
 * How would you insert an embedded view from a prepared `TemplateRef`?
+* What is the difference between @ViewChild() and @ContentChild()
 
 #### Template Syntax Questions:
 
