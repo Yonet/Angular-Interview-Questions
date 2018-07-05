@@ -343,4 +343,5 @@ export class ContentChildrenComp {
 * [Ha Hoang](https://github.com/sau-lanvy)
 * [Merve Ağca](https://github.com/merveagca)
 * [Ahmet Zeybek](https://github.com/ahmetzeybek)
+* [Marek Sławiński](https://github.com/mslawins)
 * You?
