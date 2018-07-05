@@ -82,6 +82,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What is the difference of using a property binding verses a function binding on a template?
 * What happens if you subscribe to a data source multiple times with async pipe?
 * what is the difference between ng-content, ng-container and ng- template?
+* When you create a data-binding in Angular, are you working with attributes or properties? What is the difference anyway?
 
 #### Component Questions:
 
