@@ -26,6 +26,7 @@ A developer is perfectly able to use Angular to build applications without being
 * [Styling Questions](#styling-questions)
 * [Style Guide Questions](#style-guide-questions)
 * [Testing Questions](#testing-questions)
+* [TypeScript Questions](#typescript-questions)
 * [JavaScript Questions](#javascript-questions)
 * [Coding Questions](#coding-questions)
 * [Fun Questions](#fun-questions)
@@ -245,6 +246,7 @@ someService['someMethod'](x);
 
 * What are Discriminated union types?
 * How do you define Object of Objects type in typescript?
+* How can you capture the 'type' the user provides (e.g. number), so that we can use that information later.
 
 #### JavaScript Questions:
 
