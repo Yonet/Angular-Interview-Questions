@@ -49,6 +49,7 @@ A developer is perfectly able to use Angular to build applications without being
 #### Architecture Questions:
 
 * What is a good use case for ngrx/store?
+* What is a good use case for ngrx/entity?
 * Can you talk about a bug related to a race condition, how to solve it and how to test it?
 * What is the difference between a smart/container component and dumb/presentational component? What is a good use case example? What are the advantages?
 
