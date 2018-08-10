@@ -29,4 +29,8 @@ source:[https://github.com/angular/angular/commit/344a5ca#diff-0ef0b3df44ffd7a42
 You are not sure what the context you are doing the rendering. You might be assuming the browser compilation and native DOM methods to be available but that might not be the case. It is better to be safe and let Angular handle the manupulation for elements.
 
 * How would you protect a component being activated through the router?
+  [Please correct me if I am wrong ]  By Defning gaurds in angular like CanActivate,CanActivateChild, CanDeactivate, CanLoad  source : [https://blog.thoughtram.io/angular/2016/07/18/guards-in-angular-2.html]
+  Guards can be implemented in different ways, but after all it really boils down to a function that returns either Observable<boolean>, Promise<boolean> or boolean. In addition, guards are registered using providers, so they can be injected by Angular when needed.
+  
 * How would you insert an embedded view from a prepared `TemplateRef`?
+
