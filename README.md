@@ -230,8 +230,11 @@ let service = new DataService();
 
 #### Testing Questions:
 
-* How do you mock a service to inject in a unit test?
-* How do you mock a module in a unit test?
+* What are some of the different tests types you can write?
+* How do you mock a service to inject in an integration test?
+* How do you mock a module in an integration test?
+* How do you test a component that has a dependency to an async service?
+* What is the difference between 'async()' and 'fakeAsync()'? 
 
 #### TypeScript Questions:
 
