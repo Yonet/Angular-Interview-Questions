@@ -30,3 +30,7 @@ You are not sure what the context you are doing the rendering. You might be assu
 
 * How would you protect a component being activated through the router?
 * How would you insert an embedded view from a prepared `TemplateRef`?
+* What is the difference between @ViewChild() and @ContentChild()?
+- @ViewChild and @ContentChild are used to access Child Component from the Parent Component.
+- @ViewChild returns the specified element or directive from the view DOM. But it don’t include element that exist within the <ng-content> tag
+- Whereas, any element or component that exists within the <ng-content> tag is accessed as @ContentChild.
