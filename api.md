@@ -34,3 +34,22 @@ You are not sure what the context you are doing the rendering. You might be assu
   
 * How would you insert an embedded view from a prepared `TemplateRef`?
 
+* What is the difference between @ViewChild() and @ContentChild()?
+
+- @ContentChild and @ViewChild are used to access the first element or the directive matching the selector from the content or view DOM respectively. 
+- If the content or view DOM changes, and a new child matches the selector, the property will be updated
+- When static is not provided, uses query results to determine the timing of query resolution. 
+- If any query results are inside a nested view (such as *ngIf), the query is resolved after change detection runs.
+- @ContentChild query is checked before @ViewChild query.
+
+@ContentChild:
+- Content queries are set before the *ngAfterContentInit* callback is called, after *ngOnInit* and *ngDoCheck*.
+- Does not retrieve elements or directives that are in other components' templates, since a component's template is always a black box to its ancestors.
+
+@ViewChild:
+- View queries are set before the *ngAfterViewInit* callback is called, after *ngAfterContentInit* and *ngAfterContentChecked*.
+- Supports querying from view DOM: 
+    - Any class with the *@Component* or *@Directive* decorator.
+    - Template reference variable as a string (e.g. query <my-component #cmp></my-component> with @ViewChild('cmp'))
+    - Any *provider* defined in the child component tree of the current component (e.g. @ViewChild(SomeService) someService: SomeService)
+    - A *TemplateRef* (e.g. query <ng-template></ng-template> with @ViewChild(TemplateRef) template;)

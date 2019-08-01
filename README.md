@@ -83,7 +83,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What is a template variable. How would you use it?
 * What is the difference of using a property binding verses a function binding on a template?
 * What happens if you subscribe to a data source multiple times with async pipe?
-* what is the difference between ng-content, ng-container and ng- template?
+* What is the difference between ng-content, ng-container and ng- template?
 * When you create a data-binding in Angular, are you working with attributes or properties? What is the difference anyway?
 * When can you omit the brackets in template binding? 
 
@@ -125,7 +125,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What would you not put shared module?
 * What module would you put a singleton service whose instance will be shared throughout the application (e.g. ExceptionService andLoggerService)?
 * What is the purpose of exports in a NgModule?
-* What is the difference between exports and declerations in NgModule?
+* What is the difference between exports and declarations in NgModule?
 * Why is it bad if SharedModule provides a service to a lazy loaded module?
 
 #### Services Questions:
@@ -230,8 +230,11 @@ let service = new DataService();
 
 #### Testing Questions:
 
-* How do you mock a service to inject in a unit test?
-* How do you mock a module in a unit test?
+* What are some of the different tests types you can write?
+* How do you mock a service to inject in an integration test?
+* How do you mock a module in an integration test?
+* How do you test a component that has a dependency to an async service?
+* What is the difference between 'async()' and 'fakeAsync()'? 
 
 #### TypeScript Questions:
 
