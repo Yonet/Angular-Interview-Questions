@@ -330,6 +330,7 @@ export class ContentChildrenComp {
 * What is your least favorite thing about Angular? (Please share your thoughts by making a pull request to [angularFeelings](https://github.com/Yonet/Angular-Interview-Questions/blob/master/angularFeelings.md))
 * How do you like your coffee?
 * If you could decide on a new feature for angular, what would it be?
+* [What is Ivy and how do you enable it?](https://angular.io/guide/ivy)
 
 #### Contributors:
 * [Ayşegül Yönet](https://developers.google.com/experts/people/aysegul-yonet)
