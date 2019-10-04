@@ -21,6 +21,10 @@
   To avoid having multiple instances of services, RouterModule defines two methods, "forRoot" and "forChild". As the name suggests, "forRoot" method should be called only by root module, i.e. app.module, and forChild should be called by other feature modules. This way, you still get to use directives, components, pipes exported by this module and don't get new instances of services. 
   If you want to define such module yourself, you can do it as following
 
+
+* What is providedIn property used for in an NgModule?
+
+ProvidedIn is used to specify that a service should be provided in a particular @NgModule. For example, if you don't want UserService to be available to applications unless they import a UserModule you've created, you can specify that the service should be provided in the module:
   ```ts
   @NgModule({
     declarations: [MyAwesomeComponent, MyCoolDirective],
@@ -35,6 +39,20 @@
     }
   }
   ```
+  
+[Read more:](https://angular.io/guide/providers#providedin-and-ngmodules)
+
+```ts
+import { Injectable } from '@angular/core';
+import { UserModule } from './user.module';
+
+@Injectable({
+  providedIn: UserModule,
+})
+export class UserService {
+}f
+```
+
 * What would you have in a shared module?
   I would put directives, pipes, components and other modules that are used throughout my application and export them from this shared module. 
   This way, I would not have to declare/import same components/modules everywhere.
