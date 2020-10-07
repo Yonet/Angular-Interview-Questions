@@ -114,6 +114,7 @@ A developer is perfectly able to use Angular to build applications without being
 * What's the difference between `dirty`, `touched`, and `pristine` on a form element?
 * How can you access validation errors in the template to display error messages?
 * What is async validation and how is it done?
+* What is the correct form control class name which is set to true when value is modified?
 
 #### NgModules Questions:
 
