@@ -280,6 +280,12 @@ fun(5);
 ```
 doStuff(...args);
 ```
+* What is destructuring assignment?
+* Explain why the below stand-alone syntax is not valid?
+
+```js
+{a, b} = {a: 1, b: 2}
+```
 
 #### Coding Questions:
 
