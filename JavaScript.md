@@ -29,3 +29,17 @@ doStuff(...args);
 
 With the spread operator we can avoid apply all together and simply call the function with the spread operator. [Read more...](https://davidwalsh.name/spread-operator).
 Note: although there it looks simpler, I think this is less readable at the moment since more developers are familiar with apply. 
+
+
+* What is [destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)?
+* Explain why the below stand-alone syntax is not valid?
+
+```js
+{a, b} = {a: 1, b: 2}
+```
+
+{a, b} on the left-hand side is considered a block and not an object literal.
+
+However, ({a, b} = {a: 1, b: 2}) is valid, as is const {a, b} = {a: 1, b: 2}
+
+Your ( ... ) expression needs to be preceded by a semicolon or it may be used to execute a function on the previous line.
