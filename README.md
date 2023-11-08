@@ -95,6 +95,7 @@ A developer is perfectly able to use Angular to build applications without being
 * How do you create two way data binding in Angular?
 * How would you create a component to display error messages throughout your application?
 * What does a lean component mean to you?
+* What is the difference between a view query and a content query in Angular and how do you use view/content queries?
 
 #### Component Interaction & State Management Questions:
 
